@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.21.1',
-        'version' => '1.21.1.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'df52e68abda42e13db6724980cf8c77a601984a6',
         'name' => 'roots/bedrock',
         'dev' => true,
     ),
@@ -62,12 +62,12 @@
             'dev_requirement' => true,
         ),
         'roots/bedrock' => array(
-            'pretty_version' => '1.21.1',
-            'version' => '1.21.1.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'df52e68abda42e13db6724980cf8c77a601984a6',
             'dev_requirement' => false,
         ),
         'roots/bedrock-autoloader' => array(
@@ -168,6 +168,15 @@
             'aliases' => array(),
             'reference' => 'cfa0ae98841b9e461207c13ab093d76b0fa7bace',
             'dev_requirement' => false,
+        ),
+        'symfony/var-dumper' => array(
+            'pretty_version' => 'v6.2.5',
+            'version' => '6.2.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/var-dumper',
+            'aliases' => array(),
+            'reference' => '44b7b81749fd20c1bdf4946c041050e22bc8da27',
+            'dev_requirement' => true,
         ),
         'vlucas/phpdotenv' => array(
             'pretty_version' => 'v5.5.0',

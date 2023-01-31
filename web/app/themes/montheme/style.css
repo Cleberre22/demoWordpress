@@ -1,0 +1,130 @@
+/*
+Theme Name: Mon theme
+*/
+/*-------------------------  GLOBAL  ------------------ */
+@font-face {
+  font-family: "font-1";
+  src: url(/web/app/themes/montheme/assets/fonts/futura-medium-bt.ttf);
+}
+
+/*-------------------------  Header  ------------------ */
+/*  Navbar   */
+.navbar {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar {
+    padding-right: 20px;
+  }
+  .navbar img {
+    width: 50%;
+  }
+}
+
+.navbar a {
+  color: #ffffff !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+}
+
+.navbar .navbar-toggler-icon {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/*-----------------------------------  MAIN  ---------------------------- */
+/*-------------------------  Section  1  ------------------ */
+.section1 {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*-------------------------  Section  2  ------------------ */
+.section2 {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.section2 .titleSection2 {
+  padding: 8rem;
+  font-size: 72px;
+}
+
+.section2 .infoLeft {
+  padding-left: 60px;
+  margin-top: 5rem;
+}
+
+.section2 .infoRight {
+  margin-top: 5rem;
+}
+
+.section2 .paragraphTop {
+  margin-bottom: 1.5rem;
+}
+
+/*-------------------------  Section  3  ------------------ */
+/*  Div appel  API  */
+/*-------------------------  Section  4  ------------------ */
+.section4 {
+  width: 100%;
+  padding: 10rem;
+}
+
+.section4 .blocTopArticle {
+  margin-bottom: 5rem;
+}
+
+.section4 .blocTopArticle .linkIndexArticle {
+  padding-right: 40px;
+}
+
+.section4 .blocArticle {
+  max-width: 350px;
+}
+
+.section4 .blocArticle .dateArticle {
+  margin-top: 20px;
+}
+
+.section4 .blocArticle .categoryArticle {
+  margin-top: 20px;
+}
+
+.section4 .blocArticle a {
+  text-decoration: none !important;
+  text-transform: none !important;
+  color: #000000;
+}
+
+.section4 .blocArticle .btnReadMore {
+  margin-top: 20px;
+}
+
+/*-------------------------  Section  5  ------------------ */
+/*  Div slider  */
+/*-------------------------  Footer  ------------------ */
+.footer {
+  width: 100%;
+}
+
+.footer .footerTop {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+/*# sourceMappingURL=style.css.map */
