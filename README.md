@@ -1,2 +1,2 @@
 # demoWordpress
-Formation Bedrock
+Découverte de Wordpress en utilisant Bedrock
